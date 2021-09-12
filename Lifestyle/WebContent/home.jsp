@@ -3,10 +3,41 @@
     
     
     <%@ include file="links.jsp" %>
-    
+          <li class="nav-item">
+          <a class="nav-link" href="register.jsp">Register</a>
+        </li>
+        
+          <li class="nav-item">
+          <a class="nav-link" href="login.jsp">Login</a>
+        </li>
+        
+         <li class="nav-item">
+          <a class="nav-link" href="login.jsp">Logout</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:9091/">Payment</a>
+        </li>
 <!DOCTYPE html>
 <html>
 <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
 <style>
 .test1 {
   background-image: url("santorini.jpg");

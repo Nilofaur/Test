@@ -1,14 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
  pageEncoding="ISO-8859-1"%>
+   <%@ include file="links.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Login.jsp</title>
 </head>
 <body>
  <div align="center">
-  <h1>Employee Login Form</h1>
+  <h1>Login Form</h1>
   <form action="<%=request.getContextPath()%>/login" method="post">
    <table style="with: 100%">
     <tr>

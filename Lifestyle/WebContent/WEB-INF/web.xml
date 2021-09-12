@@ -39,6 +39,17 @@
  <url-pattern>/login</url-pattern>
  </servlet-mapping>
 
+
+<servlet>
+ <servlet-name>ghi</servlet-name>
+ <servlet-class>com.tryme.AboutmeServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>ghi</servlet-name>
+ <url-pattern>/aboutme</url-pattern>
+ </servlet-mapping>
+
 </web-app>
  
  

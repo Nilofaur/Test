@@ -24,6 +24,12 @@
 </head>
 <body>
 
+  <% 
+  if(session.getAttribute("username")==null)
+  {
+	  response.sendRedirect("login.jsp");
+  }
+  %>
 
 <div class="test">
   <h2>Paris</h2>

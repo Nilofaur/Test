@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>Lifestyle</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -73,6 +73,7 @@
           <a class="nav-link" href="product.jsp">Products</a>
         </li>
         
+    
 
         <!-- Navbar dropdown -->
         <li class="nav-item dropdown">
@@ -88,7 +89,7 @@
           </a>
           <!-- Dropdown menu -->
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="Register.jsp">Register</a></li>
+            <li><a class="dropdown-item" href="register.jsp">Register</a></li>
             <li><a class="dropdown-item" href="login.jsp">Login</a></li>
             <li><hr class="dropdown-divider" /></li>
             <li>
